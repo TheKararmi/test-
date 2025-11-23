@@ -1,10 +1,10 @@
 package model
 
-type Criper struct {
-	HP     int
-	Damage int
-	Spawn  *Spawn
-}
+// type Criper struct {
+// 	HP     int
+// 	Damage int
+// 	Spawn  *Spawn
+// }
 
 func (c *Criper) MinusHP(damage int) {
 	c.HP -= damage

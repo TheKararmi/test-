@@ -50,8 +50,8 @@ func main() {
 	}
 }
 
-// func Boom(boomDamage int, npcs []NPC) {
-// 	for _, v := range npcs {
-// 		v.MinusHP(boomDamage)
-// 	}
-// }
+func Boom(boomDamage int, npcs []NPC) {
+	for _, v := range npcs {
+		v.MinusHP(boomDamage)
+	}
+}
